@@ -14,7 +14,7 @@ const Settings = () => {
           <Typography>Notifications:</Typography>
           <Box sx={{mt: 4}}>
           <Typography>
-            Email <Switch {...label} defaultChecked />
+            Email <Switch {...label} defaultChecked /> 
           </Typography>
           <Typography>
             SMS <Switch {...label} />

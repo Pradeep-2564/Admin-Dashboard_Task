@@ -8,6 +8,7 @@ import ReportsPage from './Components/ReportsPage';
 import { Box, CssBaseline } from '@mui/material';
 import Settings from './Components/Settings';
 import Personal from './Personal';
+import ColorInversionFooter from './Components/Footer';
  
  
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
               <Route path='/settings/personal info' element={<Personal/>} />
             </Routes>
           </Box>
+          <ColorInversionFooter/>
         </Box>
       </Box>
     </Router>
